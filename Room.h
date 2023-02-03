@@ -4,7 +4,6 @@
 #include <vector>
 #include "Item.h"
 #include "Player.h"
-#include "FightMan.h"
 #include <string>
 
 using std::vector;

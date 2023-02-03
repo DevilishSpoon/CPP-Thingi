@@ -14,7 +14,7 @@ public:
 	string getDescription();
 	int getGValue();
 	virtual string showStats();
-	friend ostream& operator<<(ostream& out,Item& const im);
+	friend ostream& operator<<(ostream& out,Item& im);
 protected:
 	string name, description;
 	int gValue;
@@ -40,7 +40,7 @@ string Item::showStats() {
 	return ss.str();
 }
 
-ostream& operator<<(ostream& out,Item& const im) {
+ostream& operator<<(ostream& out,Item& im) {
 	out << im.showStats();
 	return out;
 }
